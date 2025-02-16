@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <link rel="icon" href="./images/jmv-light.svg">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
@@ -30,7 +31,7 @@
         <nav class="navbar">
             <ul>
                 <li><a href="#home">home</a></li>
-                <li><a href="#about">about</a></li>
+                <li><a href="#about_hero">about</a></li>
                 <li><a href="#service">services</a></li>
                 <li><a href="#portfolio">portfolio</a></li>
                 <li><a href="#team">team</a></li>
@@ -41,93 +42,250 @@
         </nav>
     </header>
 
-    <section id="home" class="home">
-        <h1>Empowering Brands, Transforming Businesses</h1>
-        <h2>with IT Company Services</h2>
+    <section id="home" class="home ">
+        <div class="container" id="bg-image">
+            <h1>360° Solutions for Business Growth</h1>
+            <h2>with IT Company Services</h2>
+        </div>
         <div class="wave wave1"></div>
         <div class="wave wave2"></div>
         <div class="wave wave3"></div>
     </section>
-
-    <section id="about" class="about">
-        <h1 class="heading">about us</h1>
-        <div class="row">
-            <div class="content">
-                <h3>We make creativity work for your brand!</h3>
-                <p>Ours is a team of creatives that is brainstorming on great ideas,<b> all. the. time.</b><br>
-                    With our skills put together, you get an ensemble capable of doing anything and everything your
-                    brand needs.</p>
-                <a href="#"><button class="btn">Read More</button></a>
+    <section id="about_hero" class="about">
+        <div>
+            <span class="about_head"><h1 class="heading">About</h1></span>
+            <div class="list_hero">
+                <div class="about_hero">
+                    <img alt="_blank_about" src="./images/about1.png" class="img_about" data-aos="flip-right" >
+                    <h2 >We create mass public's eye attention</h2>
+                    <a href="#about">Who we are</a>
+                </div>
+                <div class="about_desc">
+                    <h2>Empowering Brands, Transforming Businesses</h2>
+                    <h4>with IT Company Services</h4>
+                    <p>We offer cutting-edge solutions in <strong>Marketing</strong>, <strong>Technology</strong> , and <strong>Consultancy</strong> to drive business success.</p>
+                    <p>Our <strong>expertise</strong>, <strong>innovation</strong>, proven track record, and tailored strategies ensure impactful results for every client.</p>
+                    <div>
+                        
+                    </div>
+                </div>
             </div>
         </div>
     </section>
+    
+    <section class="core-values">
+        <h2>Our Core Values</h2>
+        <ul>
+            <li>🔍 Transparency</li>
+            <li>🏆 Excellence</li>
+            <li>💡 Innovation</li>
+            <li>🤝 Collaboration</li>
+        </ul>
+    </section>
+    
+    <section class="founders">
+        <h2>Meet the Founders</h2>
+        <div class="founder">
+            <img src="./images/testimonial-1.jpg" alt="Akhilesh Pratap Singh">
+            <h3>Akhilesh Pratap Singh</h3>
+            <p>Founder - A visionary leader committed to driving business growth through innovation and excellence.</p>
+        </div>
+        <div class="founder">
+            <img src="./images/testimonial-3.jpg" alt="Sachin Yadav">
+            <h3>Sachin Yadav</h3>
+            <p>Co-Founder - Passionate about technology and business transformation, leading strategic initiatives.</p>
+        </div>
+    </section>
+    
+    <section class="industries">
+        <h2>Industries We Serve</h2>
+        <ul>
+            <li>🏢 Real Estate</li>
+            <li>💻 Technology</li>
+            <li>🏥 Healthcare</li>
+            <li>📊 Finance</li>
+            <li>🔬 Manufacturing</li>
+        </ul>
+    </section>
+    <!-- <section id="about" class="about">
+        <h1 class="heading">About Us</h1>
+        <div class="row">
+            <div class="content">
+                <h3>We Make Creativity Work for Your Brand!</h3>
+                <p>At <b>JMV Advertising Pvt Ltd</b>, JMV Solutions provides end-to-end business solutions in marketing,
+                    technology, and consultancy to help businesses grow and succeed.</p>
 
-    <div class="pt-5 pb-5" style="background-color: #f2f2f2;">
+                <div class="highlight-box">
+                    <p><b>Always. Consistently. Effectively.</b></p>
+                </div>
+                `
+                <ul class="about-list">
+                    <p><strong>🎯 Mission:</strong> To deliver innovative, results-driven solutions for sustainable
+                        growth.</p>
+                    <p><strong>🌎 Vision:</strong> To be a leading provider of 360° business solutions recognized for
+                        expertise and commitment.</p>
+
+                </ul>
+
+                <p>With a team of passionate experts, we are equipped to meet every need your brand has, delivering
+                    exceptional results with a creative touch.</p>
+                <a href="#service" class="btn">Read More</a>
+            </div>
+        </div>
+    </section> -->
+
+
+    <div class="pt-5 pb-5" id="service" style="background-color: #f2f2f2;">
         <div class="container">
-
             <div class="row">
                 <div class="section-head col-sm-12" id="service">
-                    <h1>Our Services</h1>
-                    <p>We help you to build high-quality digital solutions and products as well as deliver a wide range
-                        of related professional services. We are providing world-class service to our clients.
-                    </p>
+                    <h1>Products & Services Page</h1>
+                    <p>We help you build high-quality digital solutions and deliver a wide range of professional
+                        services. Our team provides world-class solutions tailored to your business needs.</p>
                 </div>
-                <div class="col-lg-4 col-sm-6">
-                    <div class="item"> <span class="icon feature_box_col_one"><i class="fa fa-laptop"></i></span>
-                        <h6>Ui/UX App Development</h6>
-                        <p>Our Custom Web Development Services Include Both Front-End And Back-End Development. Whether
-                            It Is Enhancing An Existing App Or Architecting An Enterprise App, Our Developers Are Up For
-                            The Challenge.</p>
+    
+                <!-- Marketing Services -->
+                <div class="col-lg-4 col-sm-6" data-aos="flip-right">
+                    <div class="item">
+                        <span class="icon"><i class="fa fa-bullhorn"></i></span>
+                        <h6>360° Marketing Services</h6>
+                        <div class="services-container">
+                            <div class="service-box">
+                                <h4>🚀 Digital Marketing</h4>
+                                <p><span>We offer cutting-edge solutions to</span>Boost your online presence with <strong>SEO, PPC, Social Media, Email, and Content Marketing</strong>.</p>
+                            </div>
+                        
+                            <div class="service-box">
+                                <h4>🎨 Branding & Design</h4>
+                                <p>Create a lasting impression with <strong>logo design, brochures, flyers, and packaging</strong>,<span>impactful results for every client.</span></p>
+                            </div>
+                        
+                            <div class="service-box">
+                                <h4>📢 Advertising</h4>
+                                <p>Maximize visibility through <strong>wall paintings, flex boards, and billboards</strong>.</p>
+                            </div>
+    
+                            <!-- Hidden Boxes -->
+                            <div class="hidden-services">
+                                <div class="service-box">
+                                    <h4>🖨 Printing Services</h4>
+                                    <p>High-quality <strong>business stationery, banners, and signages</strong> for your brand.</p>
+                                </div>
+                            
+                                <div class="service-box below-boxes">
+                                    <h4>🎪 Exhibitions & Events</h4>
+                                    <p>Stand out with <strong>booth design and event branding</strong> solutions.</p>
+                                </div>
+                            </div>
+                            
+                            <button class="more-btn" onclick="toggleMore(this)">More</button>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Technology Services -->
+                <div class="col-lg-4 col-sm-6" data-aos="flip-right">
+                    <div class="item">
+                        <span class="icon"><i class="fa fa-chart-line"></i></span>
+                        <h6>Technology Services</h6>
+                        <div class="services-container">
+                            <div class="service-box">
+                                <h4>💻 Design and Development</h4>
+                                <p>Build stunning digital experiences with <strong>Website Design, Mobile App Development, and UI/UX Design</strong>.</p>
+                            </div>
+                        
+                            <div class="service-box">
+                                <h4>☁️ Cloud Solutions</h4>
+                                <p>Empower your business with <strong>Cloud Migration, Storage Management, and SaaS Solutions</strong>.</p>
+                            </div>
+    
+                            <div class="service-box">
+                                <h4>🛠 Software Testing</h4>
+                                <p>Ensure quality and security with <strong>QA, Performance Testing, and Security Testing</strong>.</p>
+                            </div>
+    
+                            <!-- Hidden Boxes -->
+                            <div class="hidden-services">
+                                <div class="service-box">
+                                    <h4>🛠 Software Development</h4>
+                                    <p>Ensure quality with <strong>Web & App Development for Android and iOS Devices</strong>.</p>
+                                </div>
+                            </div>
+    
+                            <button class="more-btn" onclick="toggleMore(this)">More</button>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Consultancy Services -->
+                <div class="col-lg-4 col-sm-6" data-aos="flip-right">
+                    <div class="item">
+                        <span class="icon"><i class="fa fa-calendar-check"></i></span>
+                        <h6>Consultancy Services</h6>
+                        <div class="services-container">
+                            <div class="service-box">
+                                <h4>👥 HR Consultancy</h4>
+                                <p>Enhance workforce efficiency with <strong>Talent Acquisition, Employee Engagement, and HR Policy Development</strong>.</p>
+                            </div>
+                        
+                            <div class="service-box">
+                                <h4>📈 Marketing Consultancy</h4>
+                                <p>Boost brand visibility with <strong>Market Research, Brand Strategy, and Campaign Planning</strong>.<span>design & event branding</span></p>
+                            </div>
+    
+                            <div class="service-box">
+                                <h4>🏢 Business Consultancy</h4>
+                                <p>Optimize operations with <strong>Business Planning, Process Optimization, and Financial Consulting</strong>.</p>
+                            </div>
+    
+                            <!-- Hidden Boxes -->
+                            <div class="hidden-services">
+                                <div class="service-box">
+                                    <h4>🧑‍💼 Management Consultancy</h4>
+                                    <p>Strengthen leadership with <strong>Organizational Development, Leadership Training, and Change Management</strong>.</p>
+                                </div>
+                            </div>
+    
+                            <button class="more-btn" onclick="toggleMore(this)">More</button>
+                        </div>
+                    </div>
+                </div>
+    
+        
+    
+                <div class="col-lg-4 col-sm-6 below-boxes" data-aos="flip-right" >
+                    <div class="item">
+                        <span class="icon"><i class="fa fa-comments"></i></span>
+                        <h6>Public Relations (PR)</h6>
+                        <p>We amplify your brand’s voice with strategic PR solutions. From media outreach to reputation
+                            management, we ensure your story is heard, fostering trust and strong audience connections.
+                        </p>
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-sm-6">
-                    <div class="item"> <span class="icon feature_box_col_one"><i class="fa fa-laptop"></i></span>
-                        <h6>Advertising and Branding</h6>
-                        <p>Our Custom Web Development Services Include Both Front-End And Back-End Development. Whether
-                            It Is Enhancing An Existing App Or Architecting An Enterprise App, Our Developers Are Up For
-                            The Challenge.</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <div class="item"> <span class="icon feature_box_col_two"><i class="fa fa-android"></i></span>
-                        <h6>Public Relations</h6>
-                        <p>We Have Expertise In Creating Multi-Platform Mobile App Solutions For Both Android And IOS
-                            Devices. Using PhoneGap, Xamarin, And React Native, We Offer Custom Mobile App That Runs
-                            Smoothly On Multiple Platforms.</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <div class="item"> <span class="icon feature_box_col_three"><i class="fa fa-magic"></i></span>
-                        <h6>Digital Marketing</h6>
-                        <p>The digital marketing services that we provide have their own set of charms. By taking our
-                            digital marketing services, our clients will be able to increase visibility and engage with
-                            their customers at the online platform.</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <div class="item"> <span class="icon feature_box_col_one"><i class="fa fa-laptop"></i></span>
-                        <h6>Exhibition and Event Management</h6>
-                        <p>Our Custom Web Development Services Include Both Front-End And Back-End Development. Whether
-                            It Is Enhancing An Existing App Or Architecting An Enterprise App.</p>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-sm-6">
-                    <div class="item"> <span class="icon feature_box_col_one"><i class="fa fa-laptop"></i></span>
+                <div class="col-lg-4 col-sm-6 below-boxes" data-aos="flip-right">
+                    <div class="item">
+                        <span class="icon"><i class="fa fa-cogs"></i></span>
                         <h6>Technology Solutions</h6>
-                        <p>Our Custom Web Development Services Include Both Front-End And Back-End Development. Whether
-                            It
-                            Is Enhancing An Existing App Or Architecting An Enterprise App, Our Developers Are Up For
-                            The
-                            Challenge.</p>
+                        <p>Stay ahead with cutting-edge technology! Our solutions include web and app development,
+                            AI-driven automation, and IT consulting to streamline operations and enhance user
+                            experiences.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-sm-6 below-boxes" data-aos="flip-right">
+                    <div class="item">
+                        <span class="icon"><i class="fa fa-code"></i></span>
+                        <h6>Custom Web Development</h6>
+                        <p>Our custom web development services cover both front-end and back-end solutions. Whether
+                            enhancing an existing app or developing software, we create scalable, high-performance
+                            applications.</p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    </div>
-    </div>
+
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
@@ -140,22 +298,22 @@
         <div class="container">
             <div>
                 <i class="far fa-clock fa-4x"></i>
-                <div class="counter" data-target="13500">0</div>
+                <div class="counter" data-target="1200">0</div>
                 <h3>Working Hours</h3>
             </div>
             <div>
                 <i class="fas fa-gift fa-4x"></i>
-                <div class="counter" data-target="720">0</div>
+                <div class="counter" data-target="17">0</div>
                 <h3>Completed Projects</h3>
             </div>
             <div>
                 <i class="fas fa-users fa-4x"></i>
-                <div class="counter" data-target="480">0</div>
+                <div class="counter" data-target="15">0</div>
                 <h3>Happy Clients</h3>
             </div>
             <div>
                 <i class="fas fa-award fa-4x"></i>
-                <div class="counter" data-target="120">0</div>
+                <div class="counter" data-target="5">0</div>
                 <h3>Awards Received</h3>
             </div>
         </div>
@@ -175,25 +333,24 @@
                 <div class="col-lg-4 col-sm-6">
 
                     <div class="item"> <span class="icon feature_box_col_four"><i class="fa fa-database"></i></span>
-                        <h6>Project-1</h6>
+                        <h6>Dhruvi Enterprise</h6>
 
-                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor
-                            Aenean massa.<br><br><br></p>
+                        <p>Dhruvi Enterprise provides a wide array of other industrial oils, additives, and VCI packaging solutions. The company is also recognized for its reliable coolant management<br><br><br></p>
                     </div>
                 </div>
 
                 <div class="col-lg-4 col-sm-6">
                     <div class="item"> <span class="icon feature_box_col_five"><i class="fa fa-upload"></i></span>
-                        <h6>Project-2</h6>
-                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor
-                            Aenean massa.<br><br><br></p>
-                    </div>
+                        <h6>Dhruvi Enterprise</h6>
+
+                        <p>Dhruvi Enterprise provides a wide array of other industrial oils, additives, and VCI packaging solutions. The company is also recognized for its reliable coolant management<br><br><br></p>
+                   </div>
                 </div>
                 <div class="col-lg-4 col-sm-6">
                     <div class="item"> <span class="icon feature_box_col_six"><i class="fa fa-camera"></i></span>
-                        <h6>Project-3</h6>
-                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor
-                            Aenean massa.<br><br><br></p>
+                        <h6>Dhruvi Enterprise</h6>
+
+                        <p>Dhruvi Enterprise provides a wide array of other industrial oils, additives, and VCI packaging solutions. The company is also recognized for its reliable coolant management<br><br><br></p>
                     </div>
                 </div>
             </div>
@@ -221,24 +378,10 @@
                         <img src="./images/testimonial-1.jpg" alt="Testimonial image">
                     </div>
                     <div class="testimonial-text">
-                        <h3>Person-1</h3>
+                        <h3>Akhilesh Pratap Singh (Founder):</h3>
                         <h4>Designation</h4>
                         <p>
-                            Testimonial
-
-                        </p>
-                    </div>
-                </div>
-                <div class="testimonial-item row align-items-center">
-                    <div class="testimonial-img">
-                        <img src="./images/testimonial-2.jpg" alt="Testimonial image">
-                    </div>
-                    <div class="testimonial-text">
-                        <h3>Person-2</h3>
-                        <h4>Designation</h4>
-                        <p>
-                            Testimonial
-
+                           Expert in Marketing & BA...
                         </p>
                     </div>
                 </div>
@@ -247,10 +390,23 @@
                         <img src="./images/testimonial-3.jpg" alt="Testimonial image">
                     </div>
                     <div class="testimonial-text">
-                        <h3>Person-3</h3>
+                        <h3>Sachin Yadav(Co-Founder):</h3>
                         <h4>Designation</h4>
                         <p>
-                            Testimonial
+                           Specialist in Technology...
+
+                        </p>
+                    </div>
+                </div>
+                <div class="testimonial-item row align-items-center">
+                    <div class="testimonial-img">
+                        <img src="./images/Virendra.jpg" alt="Testimonial image">
+                    </div>
+                    <div class="testimonial-text">
+                        <h3>Virendra Yadav</h3>
+                        <h4>Designation</h4>
+                        <p>
+                            Full Stack,MERN, Automations..
 
                         </p>
                     </div>
@@ -293,15 +449,13 @@
                     We don't just build softwares, we build your business.
                 </p>
             </div>
-            <div class="owl-carousel clients-carousel">
-                <img src="./images/image.png" alt="Client Logo">
-                <img src="./images/image.png" alt="Client Logo">
-                <img src="./images/image.png" alt="Client Logo">
-                <img src="./images/image.png" alt="Client Logo">
-                <img src="./images/image.png" alt="Client Logo">
-                <img src="./images/image.png" alt="Client Logo">
-                <img src="./images/image.png" alt="Client Logo">
-                <img src="./images/image.png" alt="Client Logo">
+            <div class="owl-carousel crousal_img clients-carousel">
+                <img class="crousal_img" src="./images/Clients-1.png" width="50" alt="Client Logo">
+                <img   class="crousal_img" src="./images/Clients-2.png" width="50" alt="Client Logo">
+                <img   class="crousal_img" src="./images/Clients-3.png" width="50" alt="Client Logo">
+                <img  class="crousal_img" src="./images/Clients-4.png" width="50" alt="Client Logo">
+                <img  class="crousal_img" src="./images/Clients-5.png" width="50" alt="Client Logo">
+                
             </div>
         </div>
     </div>
@@ -314,7 +468,22 @@
     <script src="lib/counterup/counterup.min.js"></script>
     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
     <script src="lib/lightbox/js/lightbox.min.js"></script>
-
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script>
+        function toggleMore(button) {
+    let hiddenSection = button.previousElementSibling;
+    if (hiddenSection.style.display === "none" || hiddenSection.style.display === "") {
+        hiddenSection.style.display = "block";
+        button.textContent = "Less";
+    } else {
+        hiddenSection.style.display = "none";
+        button.textContent = "More";
+    }
+}
+    </script>
     <section class="team" style="margin-top: 7rem;">
         <h1 class="heading" style="margin-top: -1.5rem;" id="team">our team</h1>
         <p></p>
@@ -324,8 +493,8 @@
                     <img src="./images/pexels-andrea-piacquadio-845434.jpg" alt="Team member 1">
                 </div>
                 <div class="info">
-                    <h3>Schott Watkins</h3>
-                    <span>Web Developer</span>
+                    <h3>Akhilesh Pratap Singh</h3>
+                    <span>Business Analyst</span>
                     <div class="icons">
                         <a href="https://www.facebook.com/" class="fab fa-facebook-f"></a>
                         <a href="https://twitter.com/login" class="fab fa-twitter"></a>
@@ -341,8 +510,8 @@
                     <img src="./images/pexels-vinicius-wiesehofer-1130624.jpg" alt="Team member 1">
                 </div>
                 <div class="info">
-                    <h3>Nicole Bell</h3>
-                    <span>Mobile Developer</span>
+                    <h3>Sachin Yadav</h3>
+                    <span>React Developer/Web</span>
                     <div class="icons">
                         <a href="https://www.facebook.com/" class="fab fa-facebook-f"></a>
                         <a href="https://twitter.com/login" class="fab fa-twitter"></a>
@@ -355,11 +524,11 @@
         <div class="row">
             <div class="card">
                 <div class="image">
-                    <img src="./images/pexels-hussein-altameemi-2776353.jpg" alt="Team member 1">
+                    <img src="./images/Virendra.jpg" alt="Team member 1">
                 </div>
                 <div class="info">
-                    <h3>John Doe</h3>
-                    <span>Graphic Designer</span>
+                    <h3>Virendra Yadav</h3>
+                    <span>Web Developer/Automation</span>
                     <div class="icons">
                         <a href="https://www.facebook.com/" class="fab fa-facebook-f"></a>
                         <a href="https://twitter.com/login" class="fab fa-twitter"></a>
@@ -455,7 +624,7 @@
                 <div class="accordion">
                     <div class="accordion-header">
                         <span>+</span>
-                        <h3>Can you help my current site look more professional?</h3>
+                        <h3> help me current site look more professional?</h3>
                     </div>
                     <div class="accordion-body">
                         <p>Yes. Give us your requirements and we have experienced expertise to help you give a
