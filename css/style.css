@@ -1673,6 +1673,7 @@
 
     .about_hero a {
         font-size: larger;
+        color: #000;
     }
 
     .img_about {
@@ -1829,6 +1830,43 @@
         text-align: center;
         /* border-radius: 100px; */
         width: 100%;
+    }
+    
+
+    .service-objective {
+        background: linear-gradient(to bottom right, #dfdc77, #617265, #905f5f);
+        color: white;
+        text-align: center;
+        padding: 50px 20px;
+        border-radius: 10px;
+    }
+    
+    .service-objective h2 {
+        font-size: 2rem;
+        margin-bottom: 20px;
+        font-weight: bold;
+    }
+    
+    .service-objective p {
+        font-size: 1.1rem;
+        line-height: 1.6;
+        margin-bottom: 20px;
+    }
+    
+    .service-list {
+        list-style: none;
+        padding: 0;
+    }
+    
+    .service-list li {
+        font-size: 1.1rem;
+        margin: 15px 0;
+        padding: 10px;
+        background: rgba(255, 255, 255, 0.2);
+        border-radius: 8px;
+        display: inline-block;
+        width: 80%;
+        text-align: center;
     }
     
   
