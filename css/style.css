@@ -131,7 +131,7 @@
     }
 
     .header .logo img {
-        width: 130%;
+        width: 110%;
         height: 5rem;
         top: 0;
         left: 0;
@@ -1839,6 +1839,7 @@
         text-align: center;
         padding: 50px 20px;
         border-radius: 10px;
+    
     }
     
     .service-objective h2 {
@@ -1859,13 +1860,13 @@
     }
     
     .service-list li {
-        font-size: 1.1rem;
+        font-size: 1.5rem;
         margin: 15px 0;
         padding: 10px;
         background: rgba(255, 255, 255, 0.2);
         border-radius: 8px;
         display: inline-block;
-        width: 80%;
+        width: 90%;
         text-align: center;
     }
     
