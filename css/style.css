@@ -601,19 +601,19 @@
         background: #f2f2f2;
         margin-bottom: 4rem;
     }
-
+    
     .testimonials .testimonial-item {
         position: relative;
         margin: 0 15px 30px 15px;
         background: #ffffff;
     }
-
+    
     .testimonials .testimonial-img {
         position: relative;
         background: #000000;
         overflow: hidden;
     }
-
+    
     .testimonials .testimonial-text {
         position: relative;
         width: 100%;
@@ -621,31 +621,31 @@
         text-align: center;
         background: #ffffff;
     }
-
+    
     .testimonials .testimonial-text h3 {
         font-size: 18px;
         font-weight: 700;
         margin-bottom: 10px;
     }
-
+    
     .testimonials .testimonial-text h4 {
         font-size: 12px;
         font-weight: 300;
         text-transform: uppercase;
     }
-
+    
     .testimonials .testimonial-text p {
         margin: 0;
         font-size: 16px;
         font-weight: 300;
     }
-
+    
     .testimonials .owl-nav,
     .testimonials .owl-dots {
         margin-top: 5px;
         text-align: center;
     }
-
+    
     .testimonials .owl-dot {
         display: inline-block;
         margin: 0 5px;
@@ -654,17 +654,88 @@
         border-radius: 50%;
         background-color: #dddddd;
     }
-
+    
     .testimonials .owl-dot.active {
         background-color: #000;
     }
-
-    @media (max-width: 575px) {
-        .testimonials .testimonial-text {
-            padding: 25px;
+    
+    /* Media Queries for Responsiveness */
+    
+    /* For medium and large screens (tablets and above) */
+    @media (max-width: 1200px) {
+        .testimonials .testimonial-item {
+            margin: 0 10px 30px 10px;
+        }
+    
+        .testimonials .testimonial-text h3 {
+            font-size: 16px;
+        }
+    
+        .testimonials .testimonial-text h4 {
+            font-size: 11px;
+        }
+    
+        .testimonials .testimonial-text p {
+            font-size: 15px;
         }
     }
-
+    
+    /* For tablets and smaller screens */
+    @media (max-width: 768px) {
+        .testimonials .testimonial-item {
+            margin: 0 10px 20px 10px;
+        }
+    
+        .testimonials .testimonial-text {
+            padding: 20px;
+        }
+    
+        .testimonials .testimonial-text h3 {
+            font-size: 14px;
+        }
+    
+        .testimonials .testimonial-text h4 {
+            font-size: 10px;
+        }
+    
+        .testimonials .testimonial-text p {
+            font-size: 14px;
+        }
+    
+        .testimonials .owl-dot {
+            width: 10px;
+            height: 10px;
+        }
+    }
+    
+    /* For mobile devices (portrait mode) */
+    @media (max-width: 575px) {
+        .testimonials .testimonial-item {
+            margin: 0 5px 20px 5px;
+        }
+    
+        .testimonials .testimonial-text {
+            padding: 15px;
+        }
+    
+        .testimonials .testimonial-text h3 {
+            font-size: 10px;
+        }
+    
+        .testimonials .testimonial-text h4 {
+            font-size: 9px;
+        }
+    
+        .testimonials .testimonial-text p {
+            font-size: 10px;
+        }
+    
+        .testimonials .owl-dot {
+            width: 8px;
+            height: 8px;
+        }
+    }
+    
     .clients {
         position: relative;
         padding: 90px 0;
@@ -1796,24 +1867,89 @@
         justify-content: space-around;
         text-align: center;
         align-items: center;
+        flex-wrap: wrap; /* Ensure items wrap on smaller screens */
+        gap: 20px; /* Space between items */
     }
-    .founders h2{
-        color: #002e5f;;
+    
+    .founders h2 {
+        color: #002e5f;
         font-size: 9rem;
     }
+    
     .founder img {
         width: 150px;
         height: 150px;
         border-radius: 50%;
         margin-bottom: 10px;
     }
-    .founder p{
+    
+    .founder p {
         font-size: 12px;
     }
+    
     .founder h3 {
         margin: 5px 0;
         color: #002e5f;
     }
+    
+    /* Media Queries for Responsiveness */
+    @media (max-width: 1200px) {
+        .founders h2 {
+            font-size: 6rem;
+        }
+    
+        .founder img {
+            width: 120px;
+            height: 120px;
+        }
+    
+        .founder h3 {
+            font-size: 14px;
+        }
+    
+        .founder p {
+            font-size: 10px;
+        }
+    }
+    
+    @media (max-width: 768px) {
+        .founders h2 {
+            font-size: 4rem;
+        }
+    
+        .founder img {
+            width: 100px;
+            height: 100px;
+        }
+    
+        .founder h3 {
+            font-size: 16px;
+        }
+    
+        .founder p {
+            font-size: 10px;
+        }
+    }
+    
+    @media (max-width: 480px) {
+        .founders h2 {
+            font-size: 3rem;
+        }
+    
+        .founder img {
+            width: 80px;
+            height: 80px;
+        }
+    
+        .founder h3 {
+            font-size: 14px;
+        }
+    
+        .founder p {
+            font-size: 8px;
+        }
+    }
+    
     .core-values {
         background: linear-gradient(to bottom right, #b8d634, #0f1b13); /* Gradient from blue to green */
         color: white; /* Text color for contrast */
