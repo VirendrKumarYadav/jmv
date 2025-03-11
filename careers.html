@@ -73,7 +73,7 @@
         const formData = new FormData(this); // Collect all form data including file
         
         try {
-            let response = await fetch("http://localhost:5000/send-career-mail", {
+            let response = await fetch("https://npm-email-sender.onrender.com/send-career-mail", {
                 method: "POST",
                 body: formData // Send form data directly
             });
